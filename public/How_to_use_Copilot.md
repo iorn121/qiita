@@ -6,7 +6,7 @@ tags:
   - copilot
   - githubcopilot
 private: false
-updated_at: "2023-12-06T11:04:05+09:00"
+updated_at: '2023-12-06T18:49:22+09:00'
 id: 2b3358ca68727f80cd8e
 organization_url_name: nnn-school
 slide: false
