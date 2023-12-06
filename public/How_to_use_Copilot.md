@@ -6,14 +6,14 @@ tags:
   - copilot
   - githubcopilot
 private: false
-updated_at: '2023-12-06T11:04:05+09:00'
+updated_at: "2023-12-06T11:04:05+09:00"
 id: 2b3358ca68727f80cd8e
 organization_url_name: nnn-school
 slide: false
 ignorePublish: false
 ---
 
-N/S 高等学校通学プログラミングコースでプログラミングメンターをしている [io](https://github.com/iorn121) です。
+N/S 高等学校通学プログラミングコースでプログラミング講師をしている [io](https://github.com/iorn121) です。
 [N/S 高等学校 Advent Calendar 2023](https://qiita.com/advent-calendar/2023/n-s-highschool)の 6 日目の記事として、今回は自分がよく使っている GitHub Copilot / GitHub Copilot Chat の便利さを伝えていきたいと思います。
 
 # はじめに
@@ -331,7 +331,6 @@ export default defineConfig({
 
 ![image-9.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2169385/10570a04-b237-56e2-3601-58b821fd4618.png)
 
-
 ルビがつきました！
 ちゃんとタグにまで反映されていて、予想を超えるスピードで基本機能が完成しました。
 
@@ -638,7 +637,6 @@ const dictionary: Dictionary = {
 参考記事に適用してみたところ、無事反映できていることが確認できました。
 
 ![image-13.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2169385/7e7355cc-9efe-e25a-d626-7a6583334e13.png)
-
 
 # おわりに
 
