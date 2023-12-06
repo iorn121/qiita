@@ -1,20 +1,20 @@
 ---
-title: GitHub Copilot / GitHub Copilot Chatで爆速開発をしよう！便利な使い方5選を実際に物作りしながら紹介
+title: GitHub Copilot / GitHub Copilot Chatで爆速開発をしよう！便利な使い方5選を実際にモノづくりしながら紹介
 tags:
+  - TypeScript
+  - vite
   - copilot
   - githubcopilot
-  - vite
-  - TypeScript
 private: false
-updated_at: ""
-id: null
+updated_at: '2023-12-06T11:04:05+09:00'
+id: 2b3358ca68727f80cd8e
 organization_url_name: nnn-school
 slide: false
 ignorePublish: false
 ---
 
 N/S 高等学校通学プログラミングコースでプログラミングメンターをしている [io](https://github.com/iorn121) です。
-[筑波 NS ミライラボ Advent Calendar 2023](https://qiita.com/advent-calendar/2023/tsukuba-ns-mirailabo)の 6 日目の記事として、今回は自分がよく使っている GitHub Copilot / GitHub Copilot Chat の便利さを伝えていきたいと思います。
+[N/S 高等学校 Advent Calendar 2023](https://qiita.com/advent-calendar/2023/n-s-highschool)の 6 日目の記事として、今回は自分がよく使っている GitHub Copilot / GitHub Copilot Chat の便利さを伝えていきたいと思います。
 
 # はじめに
 
@@ -62,31 +62,32 @@ GitHub Copilot にスラッシュコマンドとコンテキスト変数を導�
 
 ## 1. チャットで質問する
 
-![How to ask a question](image-1.png)
+![image-1.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2169385/2cb02a76-c6b6-2756-06a0-65de3f4e4d1d.png)
 チャットで質問したり、文章を修正したり、英訳・日本語訳ができたりします。
 
 ## 2. コードの提案をしてもらう
 
-![How to write programs](image.png)
+![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2169385/18f9dfdc-14b7-e48a-7dd8-0c778d40d200.png)
 
 ## 3. エラーの修正案を提案してもらう
 
-![How to fix 1](image-2.png)
-![How to fix 2](image-3.png)
-![How to fix 3](image-4.png)
+![image-2.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2169385/217db1dc-b363-858f-6612-6d067673ef17.png)
+![image-3.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2169385/e02c0236-674f-5a2f-8bb0-2c97621bf612.png)
+![image-4.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2169385/7eac98c3-c539-9251-e56d-ffd340a90c15.png)
+
 エラーにホバーすることで、修正案を提案してもらったり、エラーに関する説明を出力したりできます。
 
 ## 4. リファクタリングする
 
-![How to refactoring 1](image-5.png)
-![How to refactoring 2](image-6.png)
+![image-5.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2169385/bbc163ad-1a09-dd71-d069-6cff25ba31c1.png)
+![image-6.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2169385/dcb472c2-3dae-72d5-0ac0-d7c76583bb6e.png)
 チャット機能の応用として、プログラムとリファクタリングしたいというメッセージを入れることで、リファクタリングすることが可能です。
 リファクタリングの際にフォーマットルールを明記すれば、それも反映してくれます。
 
 ## 5. 単体テストを作成する
 
-![How to test 1](image-7.png)
-![How to test 2](image-8.png)
+![image-7.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2169385/efe3f612-2f18-2dd2-4fe1-aa32a77f80d6.png)
+![image-8.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2169385/90446b8b-bf3e-9292-98aa-24d4c7a19666.png)
 対象のファイルを指定して単体テストを作成することができます。
 
 # 今回作るもの
@@ -96,7 +97,7 @@ GitHub Copilot にスラッシュコマンドとコンテキスト変数を導�
 ※これは実際に私が作りたいと思っているツールです
 
 - Vite と TypeScript で Chrome 拡張機能を作りたい
-- 読めない IT 用語にルビを振りたい
+- Qiita や Zenn で読めない IT 用語にルビを振りたい
 
 ## 環境
 
@@ -328,7 +329,8 @@ export default defineConfig({
 
 では、`yarn dev`をして、Chrome 拡張機能に追加してみます！
 
-![Alt text](image-9.png)
+![image-9.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2169385/10570a04-b237-56e2-3601-58b821fd4618.png)
+
 
 ルビがつきました！
 ちゃんとタグにまで反映されていて、予想を超えるスピードで基本機能が完成しました。
@@ -441,7 +443,7 @@ export default defineConfig({
 ここまで修正することで、ようやくテストが通りました！
 問題なく動作していることが確認できました。
 
-![Test completed!](image-12.png)
+![image-12.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2169385/eac4fb3a-237e-58fa-0c8e-bc12771fac08.png)
 
 :::note warn
 div 要素以外のテストも書いて実行してみても問題なかったため、先ほどの問題の原因についてはもう少しブラウザの挙動を確認してみる必要がありそうです。
@@ -635,7 +637,8 @@ const dictionary: Dictionary = {
 
 参考記事に適用してみたところ、無事反映できていることが確認できました。
 
-![Result sample](image-13.png)
+![image-13.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2169385/7e7355cc-9efe-e25a-d626-7a6583334e13.png)
+
 
 # おわりに
 
@@ -658,4 +661,5 @@ const dictionary: Dictionary = {
 - **結局は知識がないと進め方が分からなくなることもある**
   今回は manifest の設定やエラーの解決もスムーズに出来ました。しかし、それなりの規模のプロダクトを作ろうと思うと、config の細かな設定やワークフローはもちろん、エラーも複雑になっていきます。
 
-皆さんのモノづくりにこの記事が少しても役立てば幸いです。
+Copilot は開発効率を大きく向上させるポテンシャルを秘めていますが、学ぶ姿勢は忘れないようにしたいものです。
+この記事が皆さんのモノづくりに少しでも役立てば幸いです。
