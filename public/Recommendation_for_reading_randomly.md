@@ -1,11 +1,11 @@
 ---
 title: エンジニアに捧げる乱読のすゝめ
 tags:
-  - "読書"
-  - "ポエム"
+  - 読書
+  - ポエム
 private: false
-updated_at: ""
-id: null
+updated_at: '2023-12-17T23:02:22+09:00'
+id: 63414c107d4387d53a6a
 organization_url_name: nnn-school
 slide: false
 ignorePublish: false
