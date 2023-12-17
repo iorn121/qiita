@@ -15,7 +15,7 @@ ignorePublish: false
 
 N/S 高等学校通学プログラミングコースでプログラミング講師をしている [io](https://github.com/iorn121) です。
 
-[N/S 高等学校 Advent Calendar 2023](https://qiita.com/advent-calendar/2023/n-s-highschool)の 13 日目の記事として、今回は自分が心がけている読書意識について記したいと思います。
+[N/S 高等学校 Advent Calendar 2023](https://qiita.com/advent-calendar/2023/n-s-highschool)の 17 日目の記事として、今回は自分が心がけている読書意識について記したいと思います。
 
 最初に読書についての状況を軽く整理してみましょう。
 
